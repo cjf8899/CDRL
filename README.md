@@ -18,7 +18,7 @@ To train the change detector, bi-temporal images taken at different times in the
 
 
 ## Installation
-###Step1. Install CDRL.
+### Step1. Install CDRL.
 ```shell
 git clone https://github.com/cjf8899/CDRL.git
 cd CDRL
