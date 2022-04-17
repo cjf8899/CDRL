@@ -10,9 +10,9 @@
 
 ## Results
 
-Result videos are the results of the diffence map for each threshold.
+Result videos are the results of the diffence map for each threshold. We used a threshold of 0.7.
 
-<img src="https://user-images.githubusercontent.com/53032349/163550463-1d0467aa-eff8-4e6e-9c57-2bf6fe493a4f.gif" width="400"/>   <img src="https://user-images.githubusercontent.com/53032349/163550507-38d948c0-6c0d-4b9d-b7cd-5472aa97fd50.gif" width="400"/>
+<img src="https://user-images.githubusercontent.com/53032349/163550463-1d0467aa-eff8-4e6e-9c57-2bf6fe493a4f.gif" alt="Change Pair Result" width="400"/>   <img src="https://user-images.githubusercontent.com/53032349/163550507-38d948c0-6c0d-4b9d-b7cd-5472aa97fd50.gif" alt="Unchange Pair Result" width="400"/>
 
 ## Abstract
 To train the change detector, bi-temporal images taken at different times in the same area are used. However, collecting labeled bi-temporal images is expensive and time consuming. To solve this problem, various unsupervised change detection methods have been proposed, but they still require unlabeled bi-temporal images. In this paper, we propose unsupervised change detection based on image reconstruction loss using only unlabeled single temporal single image. The image reconstruction model is trained to reconstruct the original source image by receiving the source image and the photometrically transformed source image as a pair. During inference, the model receives bitemporal images as the input, and tries to reconstruct one of the inputs. The changed region between bi-temporal images shows high reconstruction loss. Our change detector showed significant performance in various change detection benchmark datasets even though only a single temporal single source image was used. The code and trained models will be publicly available for reproducibility.
