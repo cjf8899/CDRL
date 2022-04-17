@@ -16,7 +16,7 @@ Result videos are the results of the diffence map for each threshold. We used a 
 
 ## Abstract
 To train the change detector, bi-temporal images taken at different times in the same area are used. However, collecting labeled bi-temporal images is expensive and time consuming. To solve this problem, various unsupervised change detection methods have been proposed, but they still require unlabeled bi-temporal images. In this paper, we propose unsupervised change detection based on image reconstruction loss using only unlabeled single temporal single image. The image reconstruction model is trained to reconstruct the original source image by receiving the source image and the photometrically transformed source image as a pair. During inference, the model receives bitemporal images as the input, and tries to reconstruct one of the inputs. The changed region between bi-temporal images shows high reconstruction loss. Our change detector showed significant performance in various change detection benchmark datasets even though only a single temporal single source image was used. The code and trained models will be publicly available for reproducibility.
-<p align="center"><img src="https://user-images.githubusercontent.com/53032349/163549501-817b7852-38c2-45d7-b287-f9b65f51c9c2.png" width="80%" height="80%" title="70px" alt="memoryblock"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/53032349/163549501-817b7852-38c2-45d7-b287-f9b65f51c9c2.png" width="90%" height="90%" title="70px" alt="memoryblock"></p>
 
 
 ## Installation
@@ -24,10 +24,10 @@ To train the change detector, bi-temporal images taken at different times in the
 
 The Photometric Transform model we used used the CycleGAN code of [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We provide the model's weights.
 
-* latest_net_G_A[[google]](https://drive.google.com/file/d/1M7fIJo6koqLFqXVjKG0PWHRWlTPN5BZV/view?usp=sharing)
-* latest_net_G_B[[google]](https://drive.google.com/file/d/1k_tGVaI-4_Wn6-eLT0qvm8YsIz9oDqnS/view?usp=sharing)
+* latest_net_G_A [[google]](https://drive.google.com/file/d/1M7fIJo6koqLFqXVjKG0PWHRWlTPN5BZV/view?usp=sharing)
+* latest_net_G_B [[google]](https://drive.google.com/file/d/1k_tGVaI-4_Wn6-eLT0qvm8YsIz9oDqnS/view?usp=sharing)
 
-<img src="https://user-images.githubusercontent.com/53032349/163725551-d0a229e1-7568-4040-90f2-093de0e72452.png" width="400"/>   <img src="https://user-images.githubusercontent.com/53032349/163725563-d57961bd-ead9-4edd-89fe-13a4b912276e.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/53032349/163725551-d0a229e1-7568-4040-90f2-093de0e72452.png" width="450"/>   <img src="https://user-images.githubusercontent.com/53032349/163725563-d57961bd-ead9-4edd-89fe-13a4b912276e.png" width="450"/>
 
 ### Step1. Install CDRL.
 ```shell
