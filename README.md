@@ -24,8 +24,8 @@ To train the change detector, bi-temporal images taken at different times in the
 
 The Photometric Transform model we used used the CycleGAN code of [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We provide the model's weights.
 
-* latest_net_G_A[google](https://drive.google.com/file/d/1M7fIJo6koqLFqXVjKG0PWHRWlTPN5BZV/view?usp=sharing)
-* latest_net_G_B[google](https://drive.google.com/file/d/1k_tGVaI-4_Wn6-eLT0qvm8YsIz9oDqnS/view?usp=sharing)
+* latest_net_G_A[[google]](https://drive.google.com/file/d/1M7fIJo6koqLFqXVjKG0PWHRWlTPN5BZV/view?usp=sharing)
+* latest_net_G_B[[google]](https://drive.google.com/file/d/1k_tGVaI-4_Wn6-eLT0qvm8YsIz9oDqnS/view?usp=sharing)
 
 <img src="https://user-images.githubusercontent.com/53032349/163725551-d0a229e1-7568-4040-90f2-093de0e72452.png" width="400"/>   <img src="https://user-images.githubusercontent.com/53032349/163725563-d57961bd-ead9-4edd-89fe-13a4b912276e.png" width="400"/>
 
