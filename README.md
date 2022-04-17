@@ -8,7 +8,9 @@
 > 
 > *[Project Page](https://jujingi.github.io/cdrl/)*
 
-## Demo
+## Results
+
+Result videos are the results of the diffence map for each threshold.
 
 <img src="https://user-images.githubusercontent.com/53032349/163550463-1d0467aa-eff8-4e6e-9c57-2bf6fe493a4f.gif" width="400"/>   <img src="https://user-images.githubusercontent.com/53032349/163550507-38d948c0-6c0d-4b9d-b7cd-5472aa97fd50.gif" width="400"/>
 
