@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### Step2. Creating a Pseudo-Unchange Image.
 
-Download [LEVIR-CD](https://justchenhao.github.io/LEVIR/) and put them under <CDRL_HOME>/datasets in the following structure:
+Download [LEVIR-CD](https://justchenhao.github.io/LEVIR/), WHU(TODO) and put them under <CDRL_HOME>/datasets in the following structure:
 
 ```
 CDRL/datasets
