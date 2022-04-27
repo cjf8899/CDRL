@@ -20,6 +20,19 @@ def weights_init_normal(m):
 ##############################
 #       U-NET CBAM ver
 ##############################
+class UNetDown(nn.Module):
+    def __init__(self, in_size, out_size, normalize=True, dropout=0.0):
+        super(UNetDown, self).__init__()
+        layers = [nn.Conv2d(in_size, out_size, 4, 2, 1, bias=False)]
+        if normalize:
+            layers.append(nn.InstanceNorm2d(out_size))
+        layers.append(nn.LeakyReLU(0.2))
+        if dropout:
+            layers.append(nn.Dropout(dropout))
+        self.model = nn.Sequential(*layers)
+
+    def forward(self, x):
+        return self.model(x)
     
 class UNetUp_CBAM(nn.Module):
     def __init__(self, in_size, out_size, dropout=0.0):
@@ -41,8 +54,6 @@ class UNetUp_CBAM(nn.Module):
         B = self.SpatialGate(B)
         skip_input = A+B
         x = torch.cat((x, skip_input), 1)
-        
-        
         
         return x
 
