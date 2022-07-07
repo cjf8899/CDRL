@@ -2,6 +2,7 @@
 
 ## release note
 
+Add : evaluate metric (note that all evaluate metrics is mean value. (0, 1))
 Forgive me for being late.
 
 By July 10st, the evaluation code, dataset, and complete code will be uploaded. (strictly)
