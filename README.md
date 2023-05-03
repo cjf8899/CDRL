@@ -3,6 +3,7 @@
 ## release note
 
 23.05.03 - We have published an extended version of this paper, [CDRL-SA](https://github.com/cjf8899/CDRL-SA).
+
 22.07.07 - Add : evaluate metric (note that all evaluate metrics is mean value. (0, 1))
 
 > [**Unsupervised Change Detection Based on Image Reconstruction Loss**](https://arxiv.org/abs/2204.01200)
