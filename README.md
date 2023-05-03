@@ -2,6 +2,7 @@
 
 ## release note
 
+23.05.03 - We have published an extended version of this paper, [CDRL-SA](https://github.com/cjf8899/CDRL-SA).
 22.07.07 - Add : evaluate metric (note that all evaluate metrics is mean value. (0, 1))
 
 > [**Unsupervised Change Detection Based on Image Reconstruction Loss**](https://arxiv.org/abs/2204.01200)
@@ -34,7 +35,7 @@ pip install -r requirements.txt
 
 ### Step2. Creating a Pseudo-Unchange Image.
 
-Download [LEVIR-CD](https://justchenhao.github.io/LEVIR/), WHU(TODO) and put them under <CDRL_HOME>/datasets in the following structure:
+Download [LEVIR-CD](https://justchenhao.github.io/LEVIR/), [LEVIR-CD_A2B_B2A](https://drive.google.com/file/d/1-LERpM7GOxviKna47bbO_mLQON3Q0YcA/view?usp=sharing) and put them under <CDRL_HOME>/datasets in the following structure:
 
 ```
 CDRL/datasets
